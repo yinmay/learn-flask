@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 # DeepSeek API 配置（兼容 OpenAI SDK）
 client = OpenAI(
-    api_key=os.getenv("DEEPSEEK_API_KEY", "sk-ca21c56aaf9d4884b6b3056da834d888"),
+    api_key=os.getenv("DEEPSEEK_API_KEY", "your-api-key"),
     base_url="https://api.deepseek.com",
 )
 
