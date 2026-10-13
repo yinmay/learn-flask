@@ -216,3 +216,7 @@ agent_session.db
 agent_session.db-journal
 agent_session.db-wal
 agent_session.db-shm
+agent_api.db
+agent_api.db-journal
+agent_api.db-wal
+agent_api.db-shm
