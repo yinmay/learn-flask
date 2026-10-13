@@ -212,3 +212,7 @@ memory.json.tmp
 agent_state.json
 agent_state.json.tmp
 chroma_db/
+agent_session.db
+agent_session.db-journal
+agent_session.db-wal
+agent_session.db-shm
