@@ -207,8 +207,8 @@ marimo/_lsp/
 __marimo__/
 
 # Generated agent memory and state
-/memory.json
-/memory.json.tmp
-/agent_state.json
-/agent_state.json.tmp
-/chroma_db/
+memory.json
+memory.json.tmp
+agent_state.json
+agent_state.json.tmp
+chroma_db/

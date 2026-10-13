@@ -48,7 +48,7 @@ def create_agent(model: OpenAIChatModel, state: AgentState | None = None) -> Age
 
 
 async def main():
-    load_dotenv(BASE_DIR / ".env")
+    load_dotenv(BASE_DIR.parent / ".env")
     api_key = os.getenv("DEEPSEEK_API_KEY")
     if not api_key:
         raise ValueError("请在 .env 中配置 DEEPSEEK_API_KEY")
